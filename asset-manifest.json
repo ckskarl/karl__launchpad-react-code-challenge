@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/karl__launchpad-react-code-challenge/static/css/main.073c9b0a.css",
-    "main.js": "/karl__launchpad-react-code-challenge/static/js/main.29b4d37c.js",
+    "main.js": "/karl__launchpad-react-code-challenge/static/js/main.c4c6028f.js",
     "static/js/787.9b9738a6.chunk.js": "/karl__launchpad-react-code-challenge/static/js/787.9b9738a6.chunk.js",
     "static/media/logo.svg": "/karl__launchpad-react-code-challenge/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/karl__launchpad-react-code-challenge/index.html",
     "main.073c9b0a.css.map": "/karl__launchpad-react-code-challenge/static/css/main.073c9b0a.css.map",
-    "main.29b4d37c.js.map": "/karl__launchpad-react-code-challenge/static/js/main.29b4d37c.js.map",
+    "main.c4c6028f.js.map": "/karl__launchpad-react-code-challenge/static/js/main.c4c6028f.js.map",
     "787.9b9738a6.chunk.js.map": "/karl__launchpad-react-code-challenge/static/js/787.9b9738a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.29b4d37c.js"
+    "static/js/main.c4c6028f.js"
   ]
 }
