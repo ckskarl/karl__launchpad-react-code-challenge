@@ -2,18 +2,17 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import test from './pages/test';
+import Test from './pages/test';
 
 function App() {
 return (
 
 	<Router>
     <Navbar />
-    <div>test</div>
     <Routes>
-      <Route path='/home' exact component={test} />
-      <Route path='/universities' component={test} />
-      <Route path='/postallookup' component={test} />
+      <Route path='/home' element={<Test/>} />
+      <Route path='/universities'  element={<Test/>} />
+      <Route path='/postallookup'  element={<Test/>} />
     </Routes>
 	</Router>
 );

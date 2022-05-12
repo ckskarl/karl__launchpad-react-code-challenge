@@ -24,9 +24,6 @@ return (
                     Postal lookup
                 </NavLink>
             </NavMenu>
-		<NavBtn>
-		    <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-		</NavBtn>
 	</Nav>
 	</>
 );
