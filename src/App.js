@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Test from './pages/test';
 import Home from './pages/home';
 import Universities from './pages/universities'
+import Postal from './pages/postal';
 
 function App() {
 return (
@@ -14,7 +15,7 @@ return (
     <Routes>
       <Route path='/home' element={<Home/>} />
       <Route path='/universities'  element={< Universities/>} />
-      <Route path='/postallookup'  element={<Test/>} />
+      <Route path='/postallookup'  element={<Postal/>} />
     </Routes>
 	</Router>
 );
