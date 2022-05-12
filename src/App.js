@@ -1,22 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Home from './Home'
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import test from './pages/test';
 
 function App() {
-  return (
-    <div className="App">
-      <div className="NavBar">
+return (
 
-      </div>
-      <Home />
-<<<<<<< HEAD
-      <Universities />
-      <Postal />
-=======
-
->>>>>>> d25655895cb9d29be9ac94798d22b3935f24b2eb
-    </div>
-  );
+	<Router>
+    <Navbar />
+    <div>test</div>
+    <Routes>
+      <Route path='/home' exact component={test} />
+      <Route path='/universities' component={test} />
+      <Route path='/postallookup' component={test} />
+    </Routes>
+	</Router>
+);
 }
 
 export default App;
