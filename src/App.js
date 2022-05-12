@@ -14,7 +14,7 @@ return (
     <Navbar />
     <Routes>
       <Route path='/home' element={<Home/>} />
-      <Route path='/universities'  element={< Universities/>} />
+      <Route path='/universities'  element={<Universities/>} />
       <Route path='/postallookup'  element={<Postal/>} />
     </Routes>
 	</Router>
